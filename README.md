@@ -34,3 +34,16 @@ Discussion of the results:
 
 The approach relies mainly on unsupervised methods (RBMs and autoencoders) and using these tools to encode the data vectors from the data set, one can plot the data and recognize that without providing labels for the data points, a significant difference between healthy and diseased patients can be observed in many cases. Although this is very interesting, it seems that relying too heavily on unsupervised methods has reduced the potential quality of the classifier, since at no point did an algorithm try to optimize the quality of class predictions.
         
+Literature:
+
+[1] Hinton, G. E. (2006). Reducing the Dimensionality of Data with Neural Networks. Science, 313(5786), 504–507. doi:10.1126/science.1127647 
+
+[2] An Introduction to Restricted Boltzmann Machines. Asja Fischer and Christian Igel. https://link.springer.com/content/pdf/10.1007/978-3-642-33275-3_2.pdf
+
+[3] A Practical Guide to Training Restricted Boltzmann Machines, Version 1. Geoffrey Hinton., 2010
+
+[4] Learning Deep Generative Models. Ruslan Salakhutdinov, 2015. doi:10.1146/annurev-statistics-010814-020120
+
+[5] Bayesian Hierarchical Clustering. Katherine A. Heller, Zoubin Ghahramani. https://www2.stat.duke.edu/~kheller/bhcnew.pdf
+
+[6] https://github.com/caponetto/bhc
