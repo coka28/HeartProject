@@ -1,0 +1,5 @@
+requirements for heart_project.py
+
+python 3.8+
+current version of numpy (1.23.2+)
+scipy
